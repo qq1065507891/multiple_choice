@@ -1,0 +1,936 @@
+2022-02-12 14:10:28,728 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: train save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl  use_bert True
+2022-02-12 14:10:28,849 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: test save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl  use_bert True
+2022-02-12 14:10:28,917 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: dev save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl  use_bert True
+2022-02-12 14:11:22,183 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:11:22,318 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:11:22,336 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:13:06,712 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:13:06,856 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:13:06,881 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:14:32,288 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:14:32,423 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:14:32,442 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:15:14,277 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:15:14,412 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:15:14,430 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:15:25,575 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:15:25,575 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: train-0-0
+2022-02-12 14:15:25,576 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 1157 1157 5310 3338 4638 704 1744 4510 6228 5688 4680 1912 7218 5468 1394 860 2399 833 1355 1139 3173 7319 8024 704 1744 4510 6228 5688 4680 2347 2458 1993 6158 1744 7354 4510 6228 2356 1767 4692 1962 8024 697 2399 3341 6858 6814 704 1744 4510 6228 5688 4680 807 4415 1062 1385 1403 1862 1912 6783 1139 5688 4680 8442 1914 2207 3198 8024 5688 4680 6158 6406 2768 1914 4905 6427 6241 3064 1139 8024 1912 7218 7032 7583 8298 1914 674 5401 1039 511 6814 1343 4276 3326 6225 2573 3909 5946 8024 704 1744 4510 6228 5688 4680 1762 3862 1912 1290 782 7415 704 1765 1277 6158 4668 4276 510 4668 3064 4638 4385 6496 3353 3249 6881 8024 5636 886 5688 4680 6574 7030 856 1219 8024 2512 1510 749 704 1744 4510 6228 5688 4680 1762 1744 7354 2356 1767 677 4638 1898 6289 511 6818 2399 3341 6858 6814 2458 2868 2356 1767 1346 680 4993 751 8024 2456 4989 749 5632 2346 4638 1355 6121 5381 5317 511 1762 1912 7218 4638 4510 6228 1196 704 8024 1079 1765 3119 6228 4372 7770 4638 5688 4680 1762 3862 1912 738 4692 1962 511 517 2658 4007 4403 3736 518 788 1297 7676 3949 1310 6228 671 2157 2792 5815 4276 6589 7032 7583 2218 6809 11210 8129 1914 674 1039 782 3696 2355 511 517 676 1744 4028 721 518 1762 7676 3949 762 6228 3064 1139 3198 8024 6820 1158 678 6421 1378 3119 6228 4638 3297 7770 5279 2497 511 1353 3216 4385 2141 4495 3833 4638 4510 6228 5279 2497 4275 738 6158 4692 1962 8024 1353 3216 5351 3681 510 4881 3681 4638 517 704 1290 722 1187 518 6158 3189 3315 9689 809 8149 674 1039 782 3696 2355 6579 1343 511 102 517 704 1290 722 1187 518 1525 6956 4510 6228 1196 1158 678 2496 1765 3119 6228 4372 5279 2497 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:15:25,576 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:15:25,577 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 2 (id = 2)
+2022-02-12 14:17:51,650 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:17:51,780 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:17:51,798 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:18:02,788 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:18:03,285 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: train-0-0
+2022-02-12 14:18:04,019 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 1157 1157 5310 3338 4638 704 1744 4510 6228 5688 4680 1912 7218 5468 1394 860 2399 833 1355 1139 3173 7319 8024 704 1744 4510 6228 5688 4680 2347 2458 1993 6158 1744 7354 4510 6228 2356 1767 4692 1962 8024 697 2399 3341 6858 6814 704 1744 4510 6228 5688 4680 807 4415 1062 1385 1403 1862 1912 6783 1139 5688 4680 8442 1914 2207 3198 8024 5688 4680 6158 6406 2768 1914 4905 6427 6241 3064 1139 8024 1912 7218 7032 7583 8298 1914 674 5401 1039 511 6814 1343 4276 3326 6225 2573 3909 5946 8024 704 1744 4510 6228 5688 4680 1762 3862 1912 1290 782 7415 704 1765 1277 6158 4668 4276 510 4668 3064 4638 4385 6496 3353 3249 6881 8024 5636 886 5688 4680 6574 7030 856 1219 8024 2512 1510 749 704 1744 4510 6228 5688 4680 1762 1744 7354 2356 1767 677 4638 1898 6289 511 6818 2399 3341 6858 6814 2458 2868 2356 1767 1346 680 4993 751 8024 2456 4989 749 5632 2346 4638 1355 6121 5381 5317 511 1762 1912 7218 4638 4510 6228 1196 704 8024 1079 1765 3119 6228 4372 7770 4638 5688 4680 1762 3862 1912 738 4692 1962 511 517 2658 4007 4403 3736 518 788 1297 7676 3949 1310 6228 671 2157 2792 5815 4276 6589 7032 7583 2218 6809 11210 8129 1914 674 1039 782 3696 2355 511 517 676 1744 4028 721 518 1762 7676 3949 762 6228 3064 1139 3198 8024 6820 1158 678 6421 1378 3119 6228 4638 3297 7770 5279 2497 511 1353 3216 4385 2141 4495 3833 4638 4510 6228 5279 2497 4275 738 6158 4692 1962 8024 1353 3216 5351 3681 510 4881 3681 4638 517 704 1290 722 1187 518 6158 3189 3315 9689 809 8149 674 1039 782 3696 2355 6579 1343 511 102 517 704 1290 722 1187 518 1525 6956 4510 6228 1196 1158 678 2496 1765 3119 6228 4372 5279 2497 136 102
+2022-02-12 14:18:04,766 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+2022-02-12 14:18:05,777 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 2 (id = 2)
+2022-02-12 14:18:42,937 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:18:43,071 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:18:43,089 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:19:05,656 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:19:05,656 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: train-0-0
+2022-02-12 14:19:05,657 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 1157 1157 5310 3338 4638 704 1744 4510 6228 5688 4680 1912 7218 5468 1394 860 2399 833 1355 1139 3173 7319 8024 704 1744 4510 6228 5688 4680 2347 2458 1993 6158 1744 7354 4510 6228 2356 1767 4692 1962 8024 697 2399 3341 6858 6814 704 1744 4510 6228 5688 4680 807 4415 1062 1385 1403 1862 1912 6783 1139 5688 4680 8442 1914 2207 3198 8024 5688 4680 6158 6406 2768 1914 4905 6427 6241 3064 1139 8024 1912 7218 7032 7583 8298 1914 674 5401 1039 511 6814 1343 4276 3326 6225 2573 3909 5946 8024 704 1744 4510 6228 5688 4680 1762 3862 1912 1290 782 7415 704 1765 1277 6158 4668 4276 510 4668 3064 4638 4385 6496 3353 3249 6881 8024 5636 886 5688 4680 6574 7030 856 1219 8024 2512 1510 749 704 1744 4510 6228 5688 4680 1762 1744 7354 2356 1767 677 4638 1898 6289 511 6818 2399 3341 6858 6814 2458 2868 2356 1767 1346 680 4993 751 8024 2456 4989 749 5632 2346 4638 1355 6121 5381 5317 511 1762 1912 7218 4638 4510 6228 1196 704 8024 1079 1765 3119 6228 4372 7770 4638 5688 4680 1762 3862 1912 738 4692 1962 511 517 2658 4007 4403 3736 518 788 1297 7676 3949 1310 6228 671 2157 2792 5815 4276 6589 7032 7583 2218 6809 11210 8129 1914 674 1039 782 3696 2355 511 517 676 1744 4028 721 518 1762 7676 3949 762 6228 3064 1139 3198 8024 6820 1158 678 6421 1378 3119 6228 4638 3297 7770 5279 2497 511 1353 3216 4385 2141 4495 3833 4638 4510 6228 5279 2497 4275 738 6158 4692 1962 8024 1353 3216 5351 3681 510 4881 3681 4638 517 704 1290 722 1187 518 6158 3189 3315 9689 809 8149 674 1039 782 3696 2355 6579 1343 511 102 517 704 1290 722 1187 518 1525 6956 4510 6228 1196 1158 678 2496 1765 3119 6228 4372 5279 2497 136 102
+2022-02-12 14:19:05,657 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+2022-02-12 14:19:05,657 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 2 (id = 2)
+2022-02-12 14:19:10,509 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:19:10,509 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: train-0-1
+2022-02-12 14:19:10,510 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 1157 1157 5310 3338 4638 704 1744 4510 6228 5688 4680 1912 7218 5468 1394 860 2399 833 1355 1139 3173 7319 8024 704 1744 4510 6228 5688 4680 2347 2458 1993 6158 1744 7354 4510 6228 2356 1767 4692 1962 8024 697 2399 3341 6858 6814 704 1744 4510 6228 5688 4680 807 4415 1062 1385 1403 1862 1912 6783 1139 5688 4680 8442 1914 2207 3198 8024 5688 4680 6158 6406 2768 1914 4905 6427 6241 3064 1139 8024 1912 7218 7032 7583 8298 1914 674 5401 1039 511 6814 1343 4276 3326 6225 2573 3909 5946 8024 704 1744 4510 6228 5688 4680 1762 3862 1912 1290 782 7415 704 1765 1277 6158 4668 4276 510 4668 3064 4638 4385 6496 3353 3249 6881 8024 5636 886 5688 4680 6574 7030 856 1219 8024 2512 1510 749 704 1744 4510 6228 5688 4680 1762 1744 7354 2356 1767 677 4638 1898 6289 511 6818 2399 3341 6858 6814 2458 2868 2356 1767 1346 680 4993 751 8024 2456 4989 749 5632 2346 4638 1355 6121 5381 5317 511 1762 1912 7218 4638 4510 6228 1196 704 8024 1079 1765 3119 6228 4372 7770 4638 5688 4680 1762 3862 1912 738 4692 1962 511 517 2658 4007 4403 3736 518 788 1297 7676 3949 1310 6228 671 2157 2792 5815 4276 6589 7032 7583 2218 6809 11210 8129 1914 674 1039 782 3696 2355 511 517 676 1744 4028 721 518 1762 7676 3949 762 6228 3064 1139 3198 8024 6820 1158 678 6421 1378 3119 6228 4638 3297 7770 5279 2497 511 1353 3216 4385 2141 4495 3833 4638 4510 6228 5279 2497 4275 738 6158 4692 1962 8024 1353 3216 5351 3681 510 4881 3681 4638 517 704 1290 722 1187 518 6158 3189 3315 9689 809 8149 674 1039 782 3696 2355 6579 1343 511 102 517 2658 4007 4403 3736 518 1525 6956 4510 6228 1196 1158 678 2496 1765 3119 6228 4372 5279 2497 136 102
+2022-02-12 14:19:10,510 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+2022-02-12 14:19:10,510 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 2 (id = 2)
+2022-02-12 14:20:50,215 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: train save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl  use_bert True
+2022-02-12 14:20:50,550 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:20:50,551 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:24:57,474 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:24:57,616 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:24:57,636 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:24:57,657 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:24:58,535 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:24:58,535 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:26:03,949 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:26:04,095 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:26:04,115 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:26:04,136 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:26:05,046 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:26:05,046 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:26:42,181 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:26:42,322 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:26:42,341 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:26:42,361 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:26:43,236 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:26:43,236 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:27:24,498 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:27:24,641 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:27:24,661 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:27:24,682 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:27:25,544 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:27:25,544 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:28:42,066 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: train save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl  use_bert True
+2022-02-12 14:28:42,199 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: test save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl  use_bert True
+2022-02-12 14:28:42,266 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: dev save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl  use_bert True
+2022-02-12 14:28:42,295 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:28:42,295 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: train-0-0
+2022-02-12 14:28:42,295 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 1157 1157 5310 3338 4638 704 1744 4510 6228 5688 4680 1912 7218 5468 1394 860 2399 833 1355 1139 3173 7319 8024 704 1744 4510 6228 5688 4680 2347 2458 1993 6158 1744 7354 4510 6228 2356 1767 4692 1962 8024 697 2399 3341 6858 6814 704 1744 4510 6228 5688 4680 807 4415 1062 1385 1403 1862 1912 6783 1139 5688 4680 8442 1914 2207 3198 8024 5688 4680 6158 6406 2768 1914 4905 6427 6241 3064 1139 8024 1912 7218 7032 7583 8298 1914 674 5401 1039 511 6814 1343 4276 3326 6225 2573 3909 5946 8024 704 1744 4510 6228 5688 4680 1762 3862 1912 1290 782 7415 704 1765 1277 6158 4668 4276 510 4668 3064 4638 4385 6496 3353 3249 6881 8024 5636 886 5688 4680 6574 7030 856 1219 8024 2512 1510 749 704 1744 4510 6228 5688 4680 1762 1744 7354 2356 1767 677 4638 1898 6289 511 6818 2399 3341 6858 6814 2458 2868 2356 1767 1346 680 4993 751 8024 2456 4989 749 5632 2346 4638 1355 6121 5381 5317 511 1762 1912 7218 4638 4510 6228 1196 704 8024 1079 1765 3119 6228 4372 7770 4638 5688 4680 1762 3862 1912 738 4692 1962 511 517 2658 4007 4403 3736 518 788 1297 7676 3949 1310 6228 671 2157 2792 5815 4276 6589 7032 7583 2218 6809 11210 8129 1914 674 1039 782 3696 2355 511 517 676 1744 4028 721 518 1762 7676 3949 762 6228 3064 1139 3198 8024 6820 1158 678 6421 1378 3119 6228 4638 3297 7770 5279 2497 511 1353 3216 4385 2141 4495 3833 4638 4510 6228 5279 2497 4275 738 6158 4692 1962 8024 1353 3216 5351 3681 510 4881 3681 4638 517 704 1290 722 1187 518 6158 3189 3315 9689 809 8149 674 1039 782 3696 2355 6579 1343 511 102 517 704 1290 722 1187 518 1525 6956 4510 6228 1196 1158 678 2496 1765 3119 6228 4372 5279 2497 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:28:42,296 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:28:42,296 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 2 (id = 2)
+2022-02-12 14:28:42,298 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:28:42,299 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: train-0-1
+2022-02-12 14:28:42,299 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 1157 1157 5310 3338 4638 704 1744 4510 6228 5688 4680 1912 7218 5468 1394 860 2399 833 1355 1139 3173 7319 8024 704 1744 4510 6228 5688 4680 2347 2458 1993 6158 1744 7354 4510 6228 2356 1767 4692 1962 8024 697 2399 3341 6858 6814 704 1744 4510 6228 5688 4680 807 4415 1062 1385 1403 1862 1912 6783 1139 5688 4680 8442 1914 2207 3198 8024 5688 4680 6158 6406 2768 1914 4905 6427 6241 3064 1139 8024 1912 7218 7032 7583 8298 1914 674 5401 1039 511 6814 1343 4276 3326 6225 2573 3909 5946 8024 704 1744 4510 6228 5688 4680 1762 3862 1912 1290 782 7415 704 1765 1277 6158 4668 4276 510 4668 3064 4638 4385 6496 3353 3249 6881 8024 5636 886 5688 4680 6574 7030 856 1219 8024 2512 1510 749 704 1744 4510 6228 5688 4680 1762 1744 7354 2356 1767 677 4638 1898 6289 511 6818 2399 3341 6858 6814 2458 2868 2356 1767 1346 680 4993 751 8024 2456 4989 749 5632 2346 4638 1355 6121 5381 5317 511 1762 1912 7218 4638 4510 6228 1196 704 8024 1079 1765 3119 6228 4372 7770 4638 5688 4680 1762 3862 1912 738 4692 1962 511 517 2658 4007 4403 3736 518 788 1297 7676 3949 1310 6228 671 2157 2792 5815 4276 6589 7032 7583 2218 6809 11210 8129 1914 674 1039 782 3696 2355 511 517 676 1744 4028 721 518 1762 7676 3949 762 6228 3064 1139 3198 8024 6820 1158 678 6421 1378 3119 6228 4638 3297 7770 5279 2497 511 1353 3216 4385 2141 4495 3833 4638 4510 6228 5279 2497 4275 738 6158 4692 1962 8024 1353 3216 5351 3681 510 4881 3681 4638 517 704 1290 722 1187 518 6158 3189 3315 9689 809 8149 674 1039 782 3696 2355 6579 1343 511 102 517 2658 4007 4403 3736 518 1525 6956 4510 6228 1196 1158 678 2496 1765 3119 6228 4372 5279 2497 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:28:42,299 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:28:42,299 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 2 (id = 2)
+2022-02-12 14:30:21,051 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: train save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl  use_bert True
+2022-02-12 14:30:21,530 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:30:21,530 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:31:16,590 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:31:16,731 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:31:16,753 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:31:16,774 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:31:17,123 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:31:17,123 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:31:47,000 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:31:47,169 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: test-0-0
+2022-02-12 14:31:47,353 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 1957 8038 2769 791 1921 976 4638 7000 5831 7824 2582 720 3416 136 872 2214 749 1408 136 4511 8038 6820 1377 809 8024 7824 5489 2523 7831 8024 1963 3362 3739 7027 1086 1217 671 4157 1036 4663 2218 3291 1962 749 511 102 3683 6772 1496 4511 4638 6230 2533 7824 2582 720 3416 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:31:47,477 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:31:47,539 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 0 (id = 0)
+2022-02-12 14:31:47,663 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:31:47,756 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: test-0-1
+2022-02-12 14:31:47,896 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 1957 8038 2769 791 1921 976 4638 7000 5831 7824 2582 720 3416 136 872 2214 749 1408 136 4511 8038 6820 1377 809 8024 7824 5489 2523 7831 8024 1963 3362 3739 7027 1086 1217 671 4157 1036 4663 2218 3291 1962 749 511 102 1922 6793 749 4511 4638 6230 2533 7824 2582 720 3416 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:31:48,080 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:31:48,345 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 0 (id = 0)
+2022-02-12 14:34:31,877 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: test save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl  use_bert True
+2022-02-12 14:34:32,039 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:34:32,039 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 14:38:22,980 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:38:23,125 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:38:23,144 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:38:23,164 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:38:23,508 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:38:23,509 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:38:24,175 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 14:38:24,256 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:38:24,256 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 14:38:24,477 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:38:24,477 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: dev-0-0
+2022-02-12 14:38:24,477 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 4511 8038 1420 6432 872 812 1062 1385 6206 3836 872 1343 1298 3175 2339 868 136 1957 8038 3221 1435 8024 6006 6432 6929 6804 4384 1862 1962 8024 2521 6878 738 679 7231 8024 1377 2769 6820 3221 6230 2533 1762 2157 7027 3297 1962 511 102 3180 6121 800 812 1762 6448 6389 784 720 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:38:24,478 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:38:24,478 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 2 (id = 2)
+2022-02-12 14:38:24,479 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:160] - INFO: *** Example ***
+2022-02-12 14:38:24,479 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:161] - INFO: guid: dev-0-1
+2022-02-12 14:38:24,479 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:162] - INFO: input_ids: 101 4511 8038 1420 6432 872 812 1062 1385 6206 3836 872 1343 1298 3175 2339 868 136 1957 8038 3221 1435 8024 6006 6432 6929 6804 4384 1862 1962 8024 2521 6878 738 679 7231 8024 1377 2769 6820 3221 6230 2533 1762 2157 7027 3297 1962 511 102 1776 1862 800 812 1762 6448 6389 784 720 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:38:24,480 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:163] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 14:38:24,480 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:164] - INFO: label: 2 (id = 2)
+2022-02-12 14:38:55,028 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: dev save in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl  use_bert True
+2022-02-12 14:38:55,173 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:38:55,174 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 14:38:55,493 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 14:40:02,770 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:40:02,912 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:40:02,932 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:40:02,951 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:40:03,296 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:40:03,296 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:40:03,959 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 14:40:04,039 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:40:04,039 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 14:40:04,255 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 14:40:04,342 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:40:04,342 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 14:40:04,552 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 14:41:15,744 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:41:15,889 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:41:15,909 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:41:15,928 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:41:16,276 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:41:16,276 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:41:16,929 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 14:41:17,011 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:41:17,011 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 14:41:17,228 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 14:41:17,309 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:41:17,309 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 14:41:17,519 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 14:42:16,965 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 14:42:17,108 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 14:42:17,127 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 14:42:17,147 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 14:42:17,489 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:42:17,489 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 14:42:18,144 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 14:42:18,223 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:42:18,223 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 14:42:18,458 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 14:42:18,538 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 14:42:18,538 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 14:42:18,750 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:06:16,293 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:06:16,436 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:06:16,456 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:06:16,475 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:06:16,820 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:06:16,820 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:06:17,501 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:06:17,583 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:06:17,583 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:06:17,795 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:06:17,873 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:06:17,874 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:06:18,082 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:07:00,575 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:07:00,705 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:07:00,724 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:07:00,743 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:07:01,075 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:07:01,075 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:07:01,724 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:07:01,801 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:07:01,801 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:07:02,015 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:07:02,091 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:07:02,091 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:07:02,407 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:07:13,484 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:09, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:07:13,484 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:07:13,485 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:07:53,280 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:07:53,413 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:07:53,432 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:07:53,451 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:07:53,794 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:07:53,794 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:07:54,452 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:07:54,530 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:07:54,531 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:07:54,748 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:07:54,827 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:07:54,828 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:07:55,040 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:08:59,946 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:09:00,088 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:09:00,107 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:09:00,127 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:09:00,466 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:09:00,466 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:09:01,124 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:09:01,202 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:09:01,202 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:09:01,417 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:09:01,494 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:09:01,494 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:09:01,813 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:09:13,506 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:10, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:09:13,506 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:09:13,507 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:11:34,418 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:11:34,486 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:11:34,584 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:11:34,604 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:11:34,846 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:11:34,846 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:11:35,249 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:11:35,328 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:11:35,329 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:11:35,427 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:11:35,507 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:11:35,508 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:11:35,608 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:11:41,465 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:11:41,465 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:11:41,465 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:12:45,882 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:12:45,941 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:12:46,032 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:12:46,054 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:12:46,313 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:12:46,313 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:12:46,721 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:12:46,807 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:12:46,807 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:12:46,908 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:12:46,984 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:12:46,985 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:12:47,083 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:12:53,002 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:12:53,002 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:12:53,002 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:14:44,659 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:14:44,716 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:14:44,816 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:14:44,839 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:14:45,081 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:14:45,082 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:14:45,471 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:14:45,551 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:14:45,552 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:14:45,650 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:14:45,727 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:14:45,728 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:14:45,824 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:14:51,732 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:14:51,732 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:14:51,733 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:26:04,935 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:26:04,992 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:26:05,083 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:26:05,101 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:26:05,337 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:26:05,338 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:26:05,724 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:26:05,800 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:26:05,801 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:26:05,896 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:26:05,972 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:26:05,972 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:26:06,066 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:26:11,876 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:26:11,876 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:26:11,876 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:26:22,874 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:26:22,932 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:26:23,022 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:26:23,041 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:26:23,278 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:26:23,278 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:26:23,663 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:26:23,740 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:26:23,740 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:26:23,837 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:26:23,914 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:26:23,914 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:26:24,010 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:26:29,835 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:26:29,835 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:26:29,835 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:27:09,923 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:27:09,980 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:27:10,077 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:27:10,097 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:27:10,342 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:27:10,343 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:27:10,728 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:27:10,806 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:27:10,806 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:27:10,904 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:27:10,982 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:27:10,982 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:27:11,076 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:27:16,717 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:27:16,717 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:27:16,717 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:31:23,880 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:31:24,029 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:31:24,049 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:31:24,070 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:31:24,398 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:31:24,398 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:31:25,044 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:31:25,121 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:31:25,121 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:31:25,333 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:31:25,411 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:31:25,411 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:31:25,725 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:31:36,634 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:09, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:31:36,634 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:31:36,634 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:34:27,465 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:34:27,524 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:34:27,621 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:34:27,641 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:34:27,883 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:34:27,883 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:34:28,276 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:34:28,360 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:34:28,360 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:34:28,460 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:34:28,538 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:34:28,538 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:34:28,633 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:31] - INFO: ***********开始加载数据*********
+2022-02-12 15:34:34,868 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:42] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:34:34,868 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: *****开始加载模型******
+2022-02-12 15:34:34,868 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:50] - INFO: *********初始化模型***********
+2022-02-12 15:35:23,585 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:35:23,643 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:35:23,735 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:35:23,755 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:35:23,994 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:35:23,994 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:35:24,380 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:35:24,458 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:35:24,458 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:35:24,555 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:35:24,630 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:35:24,631 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:35:24,726 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 15:35:31,579 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:06, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:35:31,579 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 15:35:31,579 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 15:36:13,636 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:36:13,768 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:36:13,787 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:36:13,805 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:36:14,044 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:36:14,044 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:36:14,781 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:36:14,868 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:36:14,868 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:36:15,079 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:36:15,154 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:36:15,154 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:36:15,360 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 15:36:26,279 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:09, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:36:26,279 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 15:36:26,279 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 15:38:24,415 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 15:38:24,547 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 15:38:24,566 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 15:38:24,584 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 15:38:24,824 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:38:24,825 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 15:38:25,569 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 15:38:25,648 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:38:25,648 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 15:38:25,862 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 15:38:25,938 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 15:38:25,938 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 15:38:26,147 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 15:38:37,065 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:09, 训练数据: 2967, 验证数据： 954
+2022-02-12 15:38:37,065 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 15:38:37,066 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 16:00:58,004 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:00:58,078 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:00:58,173 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:00:58,194 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:00:58,555 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:00:58,556 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:00:58,943 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:00:59,028 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:00:59,028 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:00:59,126 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:82] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:00:59,210 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:00:59,210 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:00:59,305 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:01:05,276 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 16:01:05,276 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 16:01:05,276 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 16:18:38,322 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:18:38,465 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:18:38,484 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:18:38,506 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:18:38,744 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:18:38,744 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:18:39,492 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:18:39,572 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:18:39,572 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:18:39,785 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:18:39,862 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:18:39,862 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:18:40,071 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:18:50,976 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:09, 训练数据: 2967, 验证数据： 954
+2022-02-12 16:18:50,976 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 16:18:50,976 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 16:23:08,972 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:23:09,121 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:23:09,143 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:23:09,164 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:23:09,423 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:23:09,424 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:23:10,256 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:23:10,344 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:23:10,345 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:23:10,579 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:23:10,664 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:23:10,664 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:23:10,886 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:23:46,070 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:23:46,211 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:23:46,234 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:23:46,253 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:23:46,530 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:23:46,531 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:23:47,318 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:23:47,438 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:23:47,439 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:23:47,681 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:25:36,867 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:25:37,019 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:25:37,056 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:25:37,132 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:25:38,229 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:25:38,230 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:25:39,257 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:25:39,648 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:25:39,648 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:25:40,013 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:25:40,339 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:25:40,339 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:25:40,668 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:26:00,894 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:19, 训练数据: 2967, 验证数据： 954
+2022-02-12 16:26:00,895 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 16:26:13,993 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 16:29:30,814 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:29:30,959 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:29:30,978 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:29:30,997 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:29:31,320 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:29:31,320 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:29:32,307 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:29:32,382 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:29:32,382 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:29:32,711 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:29:32,785 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:29:32,785 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:29:33,103 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:29:47,104 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:12, 训练数据: 2967, 验证数据： 954
+2022-02-12 16:29:47,105 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 16:29:52,071 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 16:43:41,880 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:43:42,025 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:43:42,061 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:43:42,136 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:43:43,190 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:43:43,191 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:43:44,198 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:43:44,585 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:43:44,586 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:43:44,910 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:43:45,237 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:43:45,237 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:43:45,575 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:44:08,120 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:21, 训练数据: 2967, 验证数据： 954
+2022-02-12 16:44:08,120 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 16:44:21,017 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 16:45:00,999 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:45:01,061 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:45:01,164 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:45:01,184 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:45:01,422 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:45:01,423 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:45:01,826 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:45:01,903 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:45:01,903 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:45:02,002 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:45:02,081 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:45:02,081 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:45:02,181 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:45:08,429 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:06, 训练数据: 2967, 验证数据： 954
+2022-02-12 16:45:08,429 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 16:45:08,429 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 16:51:16,754 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:51:16,885 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:51:16,905 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:51:16,924 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:51:17,248 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:51:17,248 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:51:18,257 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:51:18,342 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:51:18,343 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:51:18,671 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:51:18,745 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:51:18,745 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:51:19,057 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:53:07,025 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:53:07,081 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:53:07,172 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:53:07,191 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:53:07,419 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:53:07,419 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:53:07,805 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:53:07,880 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:53:07,880 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:53:07,977 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:86] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:53:08,051 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:53:08,051 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:53:08,146 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:53:13,932 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 16:53:13,932 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 16:53:13,933 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 16:53:19,316 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:55] - INFO: *********开始训练************
+2022-02-12 16:57:37,507 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:88] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:57:37,653 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:88] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:57:37,674 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:88] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:57:37,694 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:88] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:57:38,017 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:57:38,017 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:57:39,005 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:88] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:57:39,082 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:57:39,083 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:57:39,407 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:88] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:57:39,484 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:57:39,484 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:57:39,797 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 16:58:50,926 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 16:58:51,053 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 16:58:51,073 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 16:58:51,092 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 16:58:51,421 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:58:51,421 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 16:58:52,428 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 16:58:52,505 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:58:52,505 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 16:58:52,832 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 16:58:52,909 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 16:58:52,909 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 16:58:53,226 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:06:04,170 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:06:04,326 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:06:04,367 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:06:04,442 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:06:05,506 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:06:05,506 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:06:06,565 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:06:06,958 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:06:06,958 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:06:07,303 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:06:07,633 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:06:07,633 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:06:07,962 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:07:20,593 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:07:20,745 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:07:20,766 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:07:20,789 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:07:21,329 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:07:21,330 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:07:22,317 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:07:22,454 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:07:22,455 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:07:22,785 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:07:22,910 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:07:22,910 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:07:23,232 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:08:37,588 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:08:37,721 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:08:37,742 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:08:37,762 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:08:38,089 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:08:38,089 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:08:39,074 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:08:39,153 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:08:39,153 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:08:39,478 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:08:39,556 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:08:39,556 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:08:39,871 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:09:18,242 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:09:18,373 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:09:18,392 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:09:18,411 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:09:18,734 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:09:18,735 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:09:19,717 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:09:19,793 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:09:19,793 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:09:20,115 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:09:20,192 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:09:20,192 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:09:20,509 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:12:21,871 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:12:22,011 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:12:22,030 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:12:22,052 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:12:22,402 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:12:22,403 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:12:23,458 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:12:23,548 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:12:23,548 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:12:23,881 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:12:23,971 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:12:23,971 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:12:24,347 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:13:32,265 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:13:32,397 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:13:32,415 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:13:32,433 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:13:32,756 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:13:32,756 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:13:33,749 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:13:33,825 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:13:33,825 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:13:34,158 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:13:34,233 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:13:34,233 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:13:34,545 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:14:45,631 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:14:45,776 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:14:45,796 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:14:45,815 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:14:46,152 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:14:46,152 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:14:47,158 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:14:47,237 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:14:47,237 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:14:47,577 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:14:47,654 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:14:47,654 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:14:47,982 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:16:46,521 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:16:46,648 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:16:46,667 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:16:46,685 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:16:47,005 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:16:47,005 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:16:48,002 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:16:48,077 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:16:48,077 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:16:48,407 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:83] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:16:48,480 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:16:48,480 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:16:48,803 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:19:00,755 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:19:00,884 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:19:00,903 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:19:00,922 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:19:01,247 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:19:01,247 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:19:02,244 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:19:02,319 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:19:02,320 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:19:02,642 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:19:02,715 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:19:02,715 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:19:03,030 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:21:17,164 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:21:17,289 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:21:17,308 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:21:17,326 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:21:17,651 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:21:17,651 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:21:18,631 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:21:18,706 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:21:18,707 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:21:19,024 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:21:19,098 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:21:19,098 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:21:19,411 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:24:52,363 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:24:52,505 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:24:52,523 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:24:52,541 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:24:52,855 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:24:52,855 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:24:53,850 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:24:53,924 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:24:53,924 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:24:54,253 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:24:54,327 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:24:54,327 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:24:54,642 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:25:40,574 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:25:40,699 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:25:40,718 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:25:40,736 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:25:41,057 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:25:41,058 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:25:42,053 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:25:42,129 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:25:42,129 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:25:42,453 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:89] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:25:42,528 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:25:42,529 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:25:42,844 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:26:13,846 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:26:13,973 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:26:13,993 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:26:14,011 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:26:14,328 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:26:14,328 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:26:15,327 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:26:15,402 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:26:15,402 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:26:15,740 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:90] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:26:15,813 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:26:15,814 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:26:16,135 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:28:15,292 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:28:15,419 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:28:15,438 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:28:15,456 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:28:15,775 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:28:15,776 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:28:16,782 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:28:16,861 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:28:16,861 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:28:17,182 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:28:17,257 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:28:17,258 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:28:17,573 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:28:59,272 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:28:59,401 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:28:59,420 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:28:59,438 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:28:59,761 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:28:59,761 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:29:00,756 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:29:00,832 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:29:00,832 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:29:01,157 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:29:01,232 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:29:01,232 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:29:01,559 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:29:41,702 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:29:41,758 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:29:41,847 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:29:41,866 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:29:42,099 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:29:42,099 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:29:42,478 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:29:42,555 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:29:42,555 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:29:42,650 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:29:42,732 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:29:42,732 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:29:42,827 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:29:48,326 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 17:29:48,326 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 17:29:48,326 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 17:29:53,471 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:55] - INFO: *********开始训练************
+2022-02-12 17:32:04,858 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:32:04,914 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:32:05,000 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:32:05,017 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:32:05,247 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:32:05,247 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:32:05,631 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:32:05,706 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:32:05,706 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:32:05,802 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:32:05,877 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:32:05,877 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:32:05,973 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:32:11,450 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 17:32:11,450 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 17:32:11,450 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 17:32:13,838 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:55] - INFO: *********开始训练************
+2022-02-12 17:33:15,059 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:33:15,209 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:33:15,229 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:33:15,250 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:33:15,613 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:33:15,613 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:33:16,614 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:33:16,692 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:33:16,692 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:33:17,031 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:33:17,111 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:33:17,111 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:33:17,432 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:35:12,308 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:35:12,451 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:35:12,471 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:35:12,491 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:35:12,832 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:35:12,832 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:35:12,938 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:35:13,020 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:35:13,020 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:35:13,057 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:92] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:35:13,139 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:35:13,140 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:35:13,171 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:36:43,629 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:36:43,764 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:36:43,784 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:36:43,807 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:36:44,154 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:36:44,154 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:36:44,251 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:36:44,329 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:36:44,329 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:36:44,363 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:36:44,445 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:36:44,445 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:36:44,476 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:39:27,388 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:39:27,520 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:39:27,539 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:39:27,557 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:39:27,900 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:39:27,900 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:39:27,995 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:39:28,071 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:39:28,072 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:39:28,106 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:39:28,187 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:39:28,187 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:39:28,217 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:44:43,815 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:44:43,956 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:44:43,978 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:44:43,998 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:44:44,348 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:44:44,349 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:44:44,450 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:44:44,530 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:44:44,530 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:44:44,564 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:44:44,642 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:44:44,643 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:44:44,682 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:45:25,494 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:45:25,552 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:45:25,647 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:45:25,668 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:45:25,906 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:45:25,906 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:45:26,031 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:45:26,106 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:45:26,106 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:45:26,116 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:45:26,189 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:45:26,189 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:45:26,198 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:45:31,821 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 17:45:31,822 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 17:45:31,822 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 17:45:34,225 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:55] - INFO: *********开始训练************
+2022-02-12 17:48:27,432 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:48:27,491 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:48:27,584 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:48:27,602 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:48:27,838 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:48:27,838 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:48:27,962 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:48:28,038 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:48:28,038 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:48:28,050 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:48:28,124 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:48:28,125 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:48:28,139 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:48:34,094 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 17:48:34,095 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 17:48:34,095 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 17:48:36,484 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:55] - INFO: *********开始训练************
+2022-02-12 17:49:02,938 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:49:03,001 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:49:03,102 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:49:03,124 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:49:03,372 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:49:03,372 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:49:03,506 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:49:03,585 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:49:03,585 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:49:03,596 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:49:03,673 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:49:03,673 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:49:03,685 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:49:09,432 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:05, 训练数据: 2967, 验证数据： 954
+2022-02-12 17:49:09,433 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 17:49:09,433 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 17:49:11,881 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:55] - INFO: *********开始训练************
+2022-02-12 17:49:50,425 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train.pkl
+2022-02-12 17:49:50,482 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test.pkl
+2022-02-12 17:49:50,573 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev.pkl
+2022-02-12 17:49:50,591 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\train_400.pkl
+2022-02-12 17:49:50,824 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:49:50,824 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 11869
+2022-02-12 17:49:50,957 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load test in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\test_400.pkl
+2022-02-12 17:49:51,025 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:49:51,025 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3892
+2022-02-12 17:49:51,038 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\utils.py[line:94] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_tf\data\out\dev_400.pkl
+2022-02-12 17:49:51,104 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:189] - INFO: ***** Running training *****
+2022-02-12 17:49:51,104 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\utils\process.py[line:190] - INFO:   Num examples = 3816
+2022-02-12 17:49:51,116 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:33] - INFO: ***********开始加载数据*********
+2022-02-12 17:49:54,723 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:44] - INFO: 数据加载完成, 用时:0:00:03, 训练数据: 2967, 验证数据： 954
+2022-02-12 17:49:54,723 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:46] - INFO: *****开始加载模型******
+2022-02-12 17:49:54,723 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:52] - INFO: *********初始化模型***********
+2022-02-12 17:49:57,126 - E:\Python\python_file\NLP\多项选择\C3\c3_tf\src\training.py[line:55] - INFO: *********开始训练************

@@ -1,0 +1,64 @@
+2022-02-12 19:00:16,798 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:22] - INFO: 开始预处理数据
+2022-02-12 19:00:16,799 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:25] - INFO: *****************预处理数据集*********************
+2022-02-12 19:00:17,650 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train.pkl
+2022-02-12 19:00:17,757 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev.pkl
+2022-02-12 19:00:17,831 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train_400.pkl
+2022-02-12 19:00:19,905 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:188] - INFO: ***** Running training *****
+2022-02-12 19:00:19,905 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:189] - INFO:   Num examples = 11869
+2022-02-12 19:00:22,922 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev_400.pkl
+2022-02-12 19:00:23,524 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:188] - INFO: ***** Running training *****
+2022-02-12 19:00:23,524 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:189] - INFO:   Num examples = 3816
+2022-02-12 19:00:24,267 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:48] - INFO: 加载数据完成， 用时： 0:00:07
+2022-02-12 19:02:04,398 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:97] - INFO: Epoch [1/100]
+2022-02-12 19:07:17,379 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:22] - INFO: 开始预处理数据
+2022-02-12 19:07:17,379 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:25] - INFO: *****************预处理数据集*********************
+2022-02-12 19:07:17,632 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train.pkl
+2022-02-12 19:07:17,852 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev.pkl
+2022-02-12 19:07:17,884 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train_400.pkl
+2022-02-12 19:07:20,120 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:188] - INFO: ***** Running training *****
+2022-02-12 19:07:20,120 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:189] - INFO:   Num examples = 11869
+2022-02-12 19:07:23,145 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev_400.pkl
+2022-02-12 19:07:23,711 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:188] - INFO: ***** Running training *****
+2022-02-12 19:07:23,712 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:189] - INFO:   Num examples = 3816
+2022-02-12 19:07:24,434 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:48] - INFO: 加载数据完成， 用时： 0:00:07
+2022-02-12 19:07:35,039 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:97] - INFO: Epoch [1/100]
+2022-02-12 19:08:25,742 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:22] - INFO: 开始预处理数据
+2022-02-12 19:08:25,742 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:25] - INFO: *****************预处理数据集*********************
+2022-02-12 19:08:25,965 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train.pkl
+2022-02-12 19:08:26,120 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev.pkl
+2022-02-12 19:08:26,145 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train_400.pkl
+2022-02-12 19:08:28,144 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:188] - INFO: ***** Running training *****
+2022-02-12 19:08:28,145 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:189] - INFO:   Num examples = 11869
+2022-02-12 19:08:31,021 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev_400.pkl
+2022-02-12 19:08:31,554 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:188] - INFO: ***** Running training *****
+2022-02-12 19:08:31,554 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:189] - INFO:   Num examples = 3816
+2022-02-12 19:08:32,270 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:48] - INFO: 加载数据完成， 用时： 0:00:07
+2022-02-12 19:08:38,787 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:97] - INFO: Epoch [1/100]
+2022-02-12 19:10:08,689 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:22] - INFO: 开始预处理数据
+2022-02-12 19:10:08,689 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:25] - INFO: *****************预处理数据集*********************
+2022-02-12 19:10:08,914 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train.pkl
+2022-02-12 19:10:09,060 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev.pkl
+2022-02-12 19:10:09,080 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load train in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train_400.pkl
+2022-02-12 19:10:11,033 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:188] - INFO: ***** Running training *****
+2022-02-12 19:10:11,033 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:189] - INFO:   Num examples = 11869
+2022-02-12 19:10:13,932 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:71] - INFO: load dev in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev_400.pkl
+2022-02-12 19:10:14,489 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:188] - INFO: ***** Running training *****
+2022-02-12 19:10:14,489 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:189] - INFO:   Num examples = 3816
+2022-02-12 19:10:15,204 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:48] - INFO: 加载数据完成， 用时： 0:00:07
+2022-02-12 19:10:27,719 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:97] - INFO: Epoch [1/100]
+2022-02-12 19:12:47,343 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:22] - INFO: 开始预处理数据
+2022-02-12 19:12:47,344 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:25] - INFO: *****************预处理数据集*********************
+2022-02-12 19:13:57,087 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:22] - INFO: 开始预处理数据
+2022-02-12 19:13:57,087 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\training.py[line:25] - INFO: *****************预处理数据集*********************
+2022-02-12 19:13:57,523 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:59] - INFO: train save in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\train.pkl  use_bert True
+2022-02-12 19:13:57,705 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\utils.py[line:59] - INFO: dev save in E:\Python\python_file\NLP\多项选择\C3\c3_paddle\data/c3\out\dev.pkl  use_bert True
+2022-02-12 19:13:57,734 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:157] - INFO: *** Example ***
+2022-02-12 19:13:57,734 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:158] - INFO: guid: train-0-0
+2022-02-12 19:13:57,734 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:161] - INFO: input_ids: 101 1957 8038 2769 3300 752 6206 1726 1296 855 671 6636 8024 872 5543 2372 2769 671 3667 1408 136 4511 8038 3766 7309 7579 1557 8024 3633 1962 2769 1469 872 7556 6662 511 679 6814 2769 2798 5440 1168 7730 4212 8024 872 1377 1166 2154 2586 1557 511 102 1957 4638 6206 1726 2157 794 2190 6413 7027 1377 809 4761 6887 784 720 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 19:13:57,735 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:162] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 19:13:57,735 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:163] - INFO: label: 3 (id = 3)
+2022-02-12 19:13:57,737 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:157] - INFO: *** Example ***
+2022-02-12 19:13:57,737 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:158] - INFO: guid: train-0-1
+2022-02-12 19:13:57,737 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:161] - INFO: input_ids: 101 1957 8038 2769 3300 752 6206 1726 1296 855 671 6636 8024 872 5543 2372 2769 671 3667 1408 136 4511 8038 3766 7309 7579 1557 8024 3633 1962 2769 1469 872 7556 6662 511 679 6814 2769 2798 5440 1168 7730 4212 8024 872 1377 1166 2154 2586 1557 511 102 4511 4638 2458 6756 3717 2398 2523 7770 794 2190 6413 7027 1377 809 4761 6887 784 720 136 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 19:13:57,737 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:162] - INFO: token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2022-02-12 19:13:57,737 - E:\Python\python_file\NLP\多项选择\C3\c3_paddle\src\utils\process.py[line:163] - INFO: label: 3 (id = 3)
